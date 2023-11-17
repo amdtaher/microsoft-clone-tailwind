@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Linking FontAwesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <title>Microsoft Hompage + Tailwind</title>
+</head>
+<body class="box-border m-0 p-0">
+    <!-- Header -->
+    <header>
+        <div class="container m-auto">
+            <!-- Navigation Bar -->
+            <div class="flex justify-between items-center text-center px-4 py-2 md:px-0">
+                <!-- Nav Left -->
+                <ul class="flex items-center gap-4 md:hidden">
+                    <a href="" class="hamburger"><i class="fa-solid fa-bars"></i></a>
+                    <li><a href="" class="inline-block"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                </ul>
+                <!-- Nav Center -->
+                <div class="flex justify-between items-center gap-3 relative">
+                    <div class="w-32 py-4 px-2.5 md:w-28 md:px-0 md:order-1">
+                        <a href="#" class="inline-block"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                    <ul class="hidden capitalize w-full text-base absolute top-[77px] left-0 text-left text-[#262626] bg-[#f2f2f2] md:w-auto md:text-sm md:pl-0 md:gap-5 md:static md:bg-transparent md:flex md:flex-row md:order-2">
+                        <li class="border-b border-[#ddd] md:border-none"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">microsoft 365</a></li>
+                        <li class="border-b border-[#ddd] md:border-none"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">teams</a></li>
+                        <li class="border-b border-[#ddd] md:border-none"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">capilot</a></li>
+                        <li class="border-b border-[#ddd] md:border-none"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">windows</a></li>
+                        <li class="border-b border-[#ddd] md:border-none hidden md:inline-block xl:hidden"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">more <i class="fa-solid fa-chevron-down text-[#616161]"></i></a></li>
+                        <li class="border-b border-[#ddd] md:border-none md:hidden xl:inline-block"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">surface</a></li>
+                        <li class="border-b border-[#ddd] md:border-none md:hidden xl:inline-block"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">xbox</a></li>
+                        <li class="border-b border-[#ddd] md:border-none md:hidden xl:inline-block"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">black friday deals</a></li>
+                        <li class="border-b border-[#ddd] md:border-none md:hidden xl:inline-block"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">small business</a></li>
+                        <li class="border-b border-[#ddd] md:border-none md:hidden xl:inline-block"><a href="" class="inline-block p-4 md:p-0 border-b-2 border-transparent hover:md:border-b-2 hover:border-black">support</a></li>
+                    </ul>
+                </div>
+                <!-- Nav Right -->
+                <ul class="capitalize flex justify-between items-center gap-5 text-sm order-3">
+                    <li><a href="" class="hidden md:inline-block">microsoft <i class="fa-solid fa-chevron-down text-[#616161]"></i></a></li>
+                    <li><a href="" class="hidden md:inline-block"><span class="hidden lg:inline-block">search</span> <i class="fa-solid fa-magnifying-glass pl-2 text-[#616161]"></i></a></li>
+                    <li><a href="" class="inline-block"><span class="hidden lg:inline-block">cart</span> <i class="fa-solid fa-cart-shopping text-[#616161]"></i></a></li>
+                    <li><a href="" class="inline-block"><i class="fa-regular fa-circle-user fa-2xl text-[#616161]"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ad -->
+    <section>
+        <!-- Ad Content -->
+        <div class="bg-[#6B0E34] text-white text-center text-base font-semibold px-3 py-4">
+            <a href="" class="inline-block capitalize">
+                black friday deals are live + buy now, pay later. As low as 0% APR + price protection. shop deals <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section>
+        <div class="flex flex-col-reverse p-2 md:py-0 relative">
+            <!-- Banner Content -->
+            <div class="shadow-md p-5 bg-white md:mx-3 md:p-8 md:border-2 md:shadow-lg md:-mt-10 md:z-10 lg:w-1/2 lg:absolute lg:top-1/4 lg:left-0 lg:border-none lg:shadow-none lg:text-white lg:bg-transparent">
+                <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                <h4 class="capitalize text-2xl font-semibold">save big on select surface</h4>
+                <p class="capitalize mt-3 mb-5 break-words md:pr-40 2xl:pr-52">Get a great deal on select Surface devices for every magic maker, number cruncher, and everything in between.</p>
+                <a href="" class="inline-block capitalize bg-[#262626] text-white text-lg font-semibold px-3 py-1.5">shop surface deals</a>
+            </div>
+            <!-- Banner Images -->
+            <picture class="md:-z-0">
+                <source media="(min-width: 1280px)" srcset="assets/img/banner/banner-1920x600.jpg">
+                <source media="(min-width: 1024px)" srcset="assets/img/banner/banner-1399x600.jpg">
+                <source media="(min-width: 768px)" srcset="assets/img/banner/banner-1083x600.jpg">
+                <img src="assets/img/banner/banner-859x540.jpg" alt="">
+            </picture>
+        </div>
+        <!-- Slider Buttons -->
+        <ul class="flex flex-row justify-center items-center gap-5 md:gap-8 md:mt-5">
+            <li><i id="play" class="fa-regular fa-circle-play cursor-pointer"></i></li>
+            <li><i id="back" class="fa-solid fa-chevron-left cursor-pointer"></i></li>
+            <li><i id="dot" class="fa-solid fa-circle fa-xs rounded-full cursor-pointer hover:text-gray-400"></i></li>
+            <li><i id="dot" class="fa-solid fa-circle fa-xs rounded-full cursor-pointer hover:text-gray-400"></i></li>
+            <li><i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></li>
+        </ul>
+    </section>
+    
+    <!-- Catagories -->
+    <section class="my-10 md:p-12">
+        <div class="container m-auto">
+            <!-- Catagory Box -->
+            <ul class="flex justify-around items-center text-center flex-wrap gap-3">
+                <!-- Single Catagory -->
+                <li class="mb-10">
+                    <img class="m-auto" src="assets/img/icons/icon.webp" alt="">
+                    <a href="" class="inline-block capitalize underline text-lg font-semibold mt-2">black friday deals: surface</a>
+                </li>
+                <!-- Single Catagory -->
+                <li class="mb-10">
+                    <img class="m-auto" src="assets/img/icons/icon2.webp" alt="">
+                    <a href="" class="inline-block capitalize underline text-lg font-semibold mt-2">black friday deals: surface</a>
+                </li>
+                <!-- Single Catagory -->
+                <li class="mb-10">
+                    <img class="m-auto" src="assets/img/icons/icon3.webp" alt="">
+                    <a href="" class="inline-block capitalize underline text-lg font-semibold mt-2">black friday deals: surface</a>
+                </li>
+                <!-- Single Catagory -->
+                <li class="mb-10">
+                    <img class="m-auto" src="assets/img/icons/icon4.webp" alt="">
+                    <a href="" class="inline-block capitalize underline text-lg font-semibold mt-2">black friday deals: surface</a>
+                </li>
+                <!-- Single Catagory -->
+                <li class="mb-10">
+                    <img class="m-auto" src="assets/img/icons/icon5.webp" alt="">
+                    <a href="" class="inline-block capitalize underline text-lg font-semibold mt-2">black friday deals: surface</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <sections class="my-10">
+        <div class="container m-auto">
+            <!-- Products Box -->
+            <ul class="flex justify-between items-center flex-wrap">
+                <!-- Single Product -->
+                <li class="md:basis-1/2 lg:basis-1/4 px-2.5 mb-7">
+                    <!-- Product Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/product-thumbnail/thumbnail-a4.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/product-thumbnail/thumbnail-a3.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/product-thumbnail/thumbnail-a2.jpg">
+                        <img src="assets/img/product-thumbnail/thumbnail-a.jpg" alt="" style="width: 100%;">
+                    </picture>
+                    <!-- Product Content -->
+                    <div class="p-5">
+                        <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                        <h4 class="capitalize text-[1.3rem] font-semibold">up to $500 off surface laptop 5</h4>
+                        <p class="capitalize mt-3 mb-4">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                        <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop surface laptop 5 <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single Product -->
+                <li class="md:basis-1/2 lg:basis-1/4 px-2.5 mb-7">
+                    <!-- Product Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/product-thumbnail/thumbnail-b4.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/product-thumbnail/thumbnail-b3.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/product-thumbnail/thumbnail-b2.jpg">
+                        <img src="assets/img/product-thumbnail/thumbnail-b.jpg" alt="" style="width: 100%;">
+                    </picture>                    
+                    <!-- Product Content -->
+                    <div class="p-5">
+                        <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                        <h4 class="capitalize text-[1.3rem] font-semibold">up to $500 off surface laptop 5</h4>
+                        <p class="capitalize mt-3 mb-4">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                        <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop surface laptop 5 <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single Product -->
+                <li class="md:basis-1/2 lg:basis-1/4 px-2.5">
+                    <!-- Product Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/product-thumbnail/thumbnail-c4.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/product-thumbnail/thumbnail-c3.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/product-thumbnail/thumbnail-c2.jpg">
+                        <img src="assets/img/product-thumbnail/thumbnail-c.jpg" alt="" style="width: 100%;">
+                    </picture>                    
+                    <!-- Product Content -->
+                    <div class="p-5">
+                        <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                        <h4 class="capitalize text-[1.3rem] font-semibold">up to $500 off surface laptop 5</h4>
+                        <p class="capitalize mt-3 mb-4">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                        <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop surface laptop 5 <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single Product -->
+                <li class="md:basis-1/2 lg:basis-1/4 px-2.5">
+                    <!-- Product Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/product-thumbnail/thumbnail-d4.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/product-thumbnail/thumbnail-d3.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/product-thumbnail/thumbnail-d2.jpg">
+                        <img src="assets/img/product-thumbnail/thumbnail-d.jpg" alt="" style="width: 100%;">
+                    </picture>                    
+                    <!-- Product Content -->
+                    <div class="p-5">
+                        <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                        <h4 class="capitalize text-[1.3rem] font-semibold">up to $500 off surface laptop 5</h4>
+                        <p class="capitalize mt-3 mb-4">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                        <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop surface laptop 5 <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </sections>
+
+    <!-- Discount Banner -->
+    <section class="my-10">
+        <div class="container m-auto">
+            <div class="flex flex-col-reverse p-2 relative">
+                <!-- Banner Content -->
+                <div class="p-5 mt-7 bg-white md:mx-3 md:p-8 md:border-2 md:shadow-lg md:-mt-10 md:z-10 lg:w-1/2 lg:px-20 lg:absolute lg:top-1/4 lg:left-0 lg:border-none lg:shadow-none lg:text-white lg:bg-transparent">
+                    <span class="inline-block capitalize bg-[#6B0E34] text-white font-semibold px-3 py-1 mb-3">black friday</span>
+                    <h4 class="capitalize text-2xl font-semibold">save 50% on selected accessories</h4>
+                    <p class="capitalize mt-3 mb-5">Get a great deal on select Surface devices for every magic maker, number cruncher, and everything in between. </p>
+                    <a href="" class="inline-block capitalize bg-[#262626] text-white text-lg font-semibold px-3 py-1.5">shop accessories</a>
+                </div>
+                <!-- Banner Images -->
+                <picture>
+                    <source media="(min-width: 1280px)" srcset="assets/img/discount/discount-1596x600.jpg">
+                    <source media="(min-width: 1024px)" srcset="assets/img/discount/discount-1260x600.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/img/discount/discount-1083x600.jpg">
+                    <img src="assets/img/discount/discount-859x540.jpg" alt="" style="width: 100%;">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business News -->
+    <section class="my-10">
+        <div class="container m-auto">
+            <!-- News Title -->
+            <div class="mb-5">
+                <h4 class="capitalize text-left text-3xl font-semibold pl-2.5">for business</h4>
+            </div>
+            <!-- News Box -->
+            <ul class="flex justify-between flex-wrap p-1">
+                <!-- Single News -->
+                <li class="basis-full md:basis-1/2 lg:basis-1/4 px-2.5 mb-10 md:mb-0 lg:mb-0">
+                    <!-- News Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/business-thumbnails/thumbnail-1d.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/business-thumbnails/thumbnail-1c.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/business-thumbnails/thumbnail-1b.jpg">
+                        <img src="assets/img/business-thumbnails/thumbnail-1a.jpg" alt="" style="width: 100%;">
+                    </picture>
+                    <!-- News Content -->
+                    <div class="pt-10">
+                    <a href="" class="inline-block"><h4 class="capitalize text-xl font-semibold">save up to $350 on surface laptop 5 for business</h4></a>
+                    <p class="capitalize my-3">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                    <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop now <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single News -->
+                <li class="basis-full md:basis-1/2 lg:basis-1/4 px-2.5 mb-10 md:mb-0 lg:mb-0">
+                    <!-- News Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/business-thumbnails/thumbnail-2d.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/business-thumbnails/thumbnail-2c.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/business-thumbnails/thumbnail-2b.jpg">
+                        <img src="assets/img/business-thumbnails/thumbnail-2a.jpg" alt="" style="width: 100%;">
+                    </picture>
+                    <!-- News Content -->
+                    <div class="pt-10">
+                        <span class="w-16 block capitalize bg-[#6B0E34] text-white text-center font-semibold px-3 py-1 mb-1">new</span>
+                        <a href="" class="inline-block"><h4 class="capitalize text-xl font-semibold">service hub 5 for business</h4></a>
+                        <p class="capitalize my-3">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                        <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop now <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single News -->
+                <li class="basis-full md:basis-1/2 lg:basis-1/4 px-2.5 mb-7 md:mb-0 lg:mb-0">
+                    <!-- News Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/business-thumbnails/thumbnail-3d.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/business-thumbnails/thumbnail-3c.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/business-thumbnails/thumbnail-3b.jpg">
+                        <img src="assets/img/business-thumbnails/thumbnail-3a.jpg" alt="" style="width: 100%;">
+                    </picture>
+                    <!-- News Content -->
+                    <div class="pt-10">
+                    <a href="" class="inline-block"><h4 class="capitalize text-xl font-semibold">save up to $350 on surface laptop 5 for business</h4></a>
+                    <p class="capitalize my-3">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                    <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop now <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+                <!-- Single News -->
+                <li class="basis-full md:basis-1/2 lg:basis-1/4 px-2.5 mb-7 md:mb-0 lg:mb-0">
+                    <!-- News Images -->
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="assets/img/business-thumbnails/thumbnail-4d.jpg">
+                        <source media="(min-width: 1024px)" srcset="assets/img/business-thumbnails/thumbnail-4c.jpg">
+                        <source media="(min-width: 768px)" srcset="assets/img/business-thumbnails/thumbnail-4b.jpg">
+                        <img src="assets/img/business-thumbnails/thumbnail-4a.jpg" alt="" style="width: 100%;">
+                    </picture>
+                    <!-- News Content -->
+                    <div class="pt-10">
+                    <a href="" class="inline-block"><h4 class="capitalize text-xl font-semibold">save up to $350 on surface laptop 5 for business</h4></a>
+                    <p class="capitalize my-3">Lightning-fast performance, built-in security and sleek portability designed for your small business. Offer ends 12/20.</p>
+                    <a href="" class="inline-block capitalize text-[#6B0E34] text-base font-semibold py-1.5 hover:underline">shop now <i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Highlighted Banner -->
+    <section class="my-10">
+        <div class="container m-auto">
+            <div class="flex flex-col-reverse p-4 relative">
+                <!-- Banner Content -->
+                <div class="shadow-lg p-5 mt-7 bg-white md:mx-3 md:p-8 md:border-2 md:shadow-lg md:-mt-10 md:z-10 lg:max-w-[440px] lg:ml-14 lg:py-10 lg:absolute lg:top-1/4 lg:left-0 lg:text-black">
+                    <h4 class="capitalize text-2xl font-semibold xl:text-4xl">help community recover quickly</h4>
+                    <p class="capitalize mt-3 mb-5">Get a great deal on select Surface devices for every magic maker, number cruncher, and everything in between. </p>
+                    <a href="" class="inline-block capitalize bg-[#262626] text-white text-lg font-semibold px-3 py-1.5">find out more</a>
+                </div>
+                <!-- Banner Images -->
+                <picture>
+                    <source media="(min-width: 1280px)" srcset="assets/img/highlight/highlight-1596x600.jpg">
+                    <source media="(min-width: 1024px)" srcset="assets/img/highlight/highlight-1260x600.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/img/highlight/highlight-1083x600.jpg">
+                    <img src="assets/img/highlight/highlight-859x540.jpg" alt="" style="width: 100%;">
+                </picture>
+            </div>
+            <!-- Slider Buttons -->
+            <ul class="flex flex-row justify-center items-center gap-5 md:gap-8 md:mt-5">
+                <li><i id="play" class="fa-regular fa-circle-play cursor-pointer"></i></li>
+                <li><i id="back" class="fa-solid fa-chevron-left cursor-pointer"></i></li>
+                <li><i id="dot" class="fa-solid fa-circle fa-xs rounded-full cursor-pointer hover:text-gray-400"></i></li>
+                <li><i id="dot" class="fa-solid fa-circle fa-xs rounded-full cursor-pointer hover:text-gray-400"></i></li>
+                <li><i id="next" class="fa-solid fa-chevron-right cursor-pointer"></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="my-10">
+        <div class="container m-auto">
+            <ul class="flex justify-start items-center ml-5">
+                <li><h4 class="capitalize text-base font-normal mr-3">follow microsoft</h4></li>
+                <li><a href="" class="w-8 inline-block"><img src="assets/img/socials/fb.jpg" alt=""></a></li>
+                <li><a href="" class="w-8 h-8 inline-block mx-2"><img src="assets/img/socials/x.jpg" alt=""></a></li>
+                <li><a href="" class="w-8 inline-block"><img src="assets/img/socials/linkedin.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Back To Top -->
+    <section class="my-10">
+        <div class="container m-auto">
+            <button class="capitalize w-36 m-auto block py-2 bg-[#d9d9d9;] text-[#262626] text-center font-semibold duration-200 hover:bg-gray-100 hover:drop-shadow-xl"><i class="fa-solid fa-arrow-up text-[#616161]"></i> back to top</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-10 bg-[#f6f6f6]">
+        <div class="m-auto">
+            <!-- Footer List Box -->
+            <ul class="flex flex-col flex-wrap text-[#616161] px-6 sm:flex-row md:px-12">
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="mt-10 capitalize flex flex-col flex-wrap gap-3 text-xs sm:basis-3/6 md:basis-2/6 lg:basis-1/6">
+                    <li><h4 class="text-lg font-semibold">business</h4></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop studio 2</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop Go 3</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Pro 9</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Laptop 5</a></li>
+                    <li><a href="" class="inline-block hover:underline">Surface Studio 2+</a></li>
+                    <li><a href="" class="inline-block hover:underline">Copilot in Windows</a></li>
+                    <li><a href="" class="inline-block hover:underline">Microsoft 365</a></li>
+                    <li><a href="" class="inline-block hover:underline">Windows 11 apps</a></li>
+                </ul>
+            </ul>
+            <!-- Footer Bottom -->
+            <ul class="flex flex-col gap-5 py-5 bg-[#f6f6f6] text-[#616161] px-6 lg:flex-row">
+                <!-- Single Footer -->
+                <ul class="mt-10 mb-5 capitalize flex flex-col gap-1 font-semibold text-xs lg:flex-row">
+                    <li class="mb-3">
+                        <a href="" class="flex flex-row gap-2 items-center">
+                            <i class="fa-solid fa-earth-americas fa-xl text-[#616161]"></i>
+                            <span class="hover:underline">english (united states)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="flex flex-row gap-2">
+                            <img src="assets/img/vector.svg" alt="">
+                            <span class="capitalize hover:underline">your privacy choise</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Single Footer -->
+                <ul class="capitalize flex flex-row flex-wrap items-end gap-3 font-semibold text-xs md:justify-center">
+                    <li><a href="" class="inline-block hover:underline">sitemap</a></li>
+                    <li><a href="" class="inline-block hover:underline">contact microsoft</a></li>
+                    <li><a href="" class="inline-block hover:underline">privacy</a></li>
+                    <li><a href="" class="inline-block hover:underline">terms of use</a></li>
+                    <li><a href="" class="inline-block hover:underline">trademarks</a></li>
+                    <li><a href="" class="inline-block hover:underline">safety & co</a></li>
+                    <li><a href="" class="inline-block hover:underline">recycling</a></li>
+                    <li><a href="" class="inline-block hover:underline">about our ads</a></li>
+                    <li>© Microsoft 2023</li>
+                </ul>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
